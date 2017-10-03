@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trip Planner</title>
+    <link rel="stylesheet" href="./style.css"></link>
+    <script src="./bundle.js" defer></script>
+  </head>
+
+  <body>
+      
+    <div id="navbar">Navbar</div>
+    <div id = "main-container">
+        <div id="map"></div> 
+        <div class = 'container'>
+            <div id="options-panel">
+                <ul >
+                    <li id = "hotels">Hotels</li>
+                    <li id = "hotel-bar">
+                        <!-- <div class = "dropdown">
+                            <button class = "dropbtn"></button>
+                        </div> -->
+                        <select name = 'Hotels'>
+                            <option selected = "Choose Hotel">Choose Hotel</option>
+                            <option value = 'Hotel 1'>Hotel 1</option>
+                            <option value = 'Hotel 2'>Hotel 2</option>
+                        </select>
+                    </li>
+                    <li id = "restaurants">Restaurants</li>
+                    <li id = "restaurant-bar">
+                       <select name = 'Restaurants'>
+                           <option selected = "Choose Restaurant">Choose Restaurant</option>
+                            <option value = 'Restaurant 1'>Restaurant 1</option>
+                            <option value = 'Restaurant 2'>Restaurant 2</option>
+                        </select>
+                    </li>
+                    <li id = 'things-to-do'>Things To Do</li>
+                    <li id = "things-to-do-bar">
+                        <select name = 'Things To Do'>
+                            <option selected = "Choose Activity">Choose Activity</option>
+                            <option value = 'Activity 1' >Activity 1</option>
+                            <option value = 'Activity 2'>Activity 2</option>
+                        </select>
+                    </li>
+                </ul>
+            </div> 
+            
+            <div id = 'itinerary-box'>
+            <h1 id = 'title'>Itinerary:</h1>
+            <div id = 'itinerary'>
+                <ul>
+                    <li>My Hotel
+                        <ul>
+                            <li>Hotel 1</li>
+                        </ul>
+                    </li>
+                    <li>My Restaurants 
+                        <ul>
+                            <li>Restaurant 1</li>
+                            <li>Restaurant 2</li>
+                        </ul>
+                    </li>
+                    <li>My Activities
+                        <ul>
+                            <li>Activity 1</li>
+                            <li>Activity 2</li>
+                            <li>Activity 3</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            </div>   
+        </div>
+    </div>
+  
+  </body>
+</html>
